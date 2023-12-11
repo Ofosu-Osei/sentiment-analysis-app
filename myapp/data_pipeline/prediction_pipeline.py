@@ -13,10 +13,10 @@ from data_pipeline import syn_data_gen as sdg
 # File paths
 vectorizer = joblib.load("models/tn_vectorizer.pkl")
 nb_model = joblib.load("models/tn_naive_bayes_model.pkl")
-nn_model = tf.keras.saving.load_model("models/tn_neural_network_model.keras")
+nn_model = tf.keras.models.load_model("models/tn_neural_network_model.keras")
 syn_vectorizer = joblib.load("models/syn_tn_vectorizer.pkl")
 syn_nb_model = joblib.load("models/syn_tn_naive_bayes_model.pkl")
-syn_nn_model = tf.keras.saving.load_model("models/syn_tn_neural_network_model.keras")
+syn_nn_model = tf.keras.models.load_model("models/syn_tn_neural_network_model.keras")
 
 
 def prediction_pipeline(text, model_type="nb", synthetic=False):
