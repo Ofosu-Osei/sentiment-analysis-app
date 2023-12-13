@@ -1,6 +1,6 @@
 [![CI](https://github.com/nogibjj/oo46_Mini_Proj_W11/actions/workflows/actions.yml/badge.svg)][def]
 
-# Individual Project IV - A publicly accessible auto-scaling container using Azure App Services and Flask.
+# A Demo Sentiment Analysis Application.
 
 ## Project Scope
 
